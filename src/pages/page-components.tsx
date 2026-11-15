@@ -44,6 +44,7 @@ function PageComponents() {
         <div className="flex gap-2">
           <ButtonIcon icon={TrashIcon}/>
           <ButtonIcon icon={TrashIcon} loading/>
+          <ButtonIcon icon={TrashIcon} handling/>
           <ButtonIcon icon={TrashIcon} variant="secondary"/>
           <ButtonIcon icon={TrashIcon} variant="tertiary"/>
         </div>
